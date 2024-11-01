@@ -1,0 +1,52 @@
+	.main1{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 50px;
+		background-color: #f9f7f1;
+	}
+	.main1-chu{
+		width: 50%;
+	}
+	.main1-chu h5{
+		color: #999;
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+	.main1-chu h2{
+		font-size: 36px;
+		line-height: 1,2;
+		margin-bottom: 20px;
+		font-family: 'Arial';
+	}
+	.anh-awards {
+		display: flex;
+		gap: 20px;
+		margin-bottom: 20px;
+	}
+	.anh-awards img {
+		width: 50px;
+		height: auto;
+	}
+	.chu-button {
+		background-color: #e94c4c;
+		color: white;
+		padding: 10px 20px;
+		font-size: 16px;
+		text-transform: uppercase;
+		border: none;
+		cursor: pointer;
+	}
+	.chu-button:hover{
+		background-color: #960303;
+	}
+	.anhdoi-images {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 7px;
+	}
+	.anhdoi-images img {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+	}

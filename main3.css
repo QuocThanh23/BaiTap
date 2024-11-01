@@ -1,0 +1,92 @@
+main3{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+.carousel {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    z-index: 10;
+}
+.prev-btn {
+    left: 10px;
+}
+.next-btn {
+    right: 10px;
+}
+.carousel-container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.4s ease-in-out;
+}
+.thelon {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 0 0 250px;
+    text-align: left;
+}
+.thelon img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.thelon h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #555;
+}
+.thelon p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 15px;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 10px;
+}
+.info-btn, .learn-btn {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+.info-btn {
+    background-color: #f0f0f0;
+    color: #000;
+}
+.learn-btn {
+    background-color: #28a745;
+    color: #fff;
+	width: 62%
+}
+.info-btn:hover {
+    background-color: #696969;
+}
+.learn-btn:hover{
+    background-color: #218838;
+}
